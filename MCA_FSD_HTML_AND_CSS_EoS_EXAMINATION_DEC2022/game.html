@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GOD OF WAR | GAMES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <style>
+        #art{
+          display:flex;
+          flex-wrap: wrap;
+            width: 70%;
+            margin: 10px;
+            display: block;
+        }
+        #leftaside{
+          width: 30%;
+        }
+        .wh{
+          display: flex;
+          width: 100%;
+          height:auto;
+        }
+        .card h2{
+          font-weight:bolder;
+          text-align: center;
+          margin-top: 3px;
+        }
+        .card h3{
+          margin: 3px;
+          font-size: 1.3vw;
+          font-weight: 300;
+        }
+        .card{ width: 24%; height: 250px;
+          margin-left: 20px;
+          border-radius: 10px;
+          overflow: hidden;
+        border: 1px solid black;
+        box-shadow: 3px 4px 8px 0 black;
+      }
+      video{
+       
+        margin-top: 5%;
+      }
+      #car{
+        width: 100%;
+        height: 300px;
+        border: 1px solid red;
+        margin-top: 5%;
+      }
+      /* carosal */
+      #slider{
+    width: 100%;
+ }
+
+ .slider{
+	max-width: 70%;
+    max-height:300px;
+    width: calc(100% - 30px);
+    height: 500px;
+	position: relative;
+  display: block;
+	top: 170px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(12, 11, 11, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	backdrop-filter: blur(5px);
+	background-clip: border-box;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(231, 219, 219, 0.2);
+}
+.slider-inner{
+	width: 100%;
+	height: 100%;
+}
+.slider-inner .slide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transition: 0.5s ease 0.5s;
+	overflow: hidden;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+}
+.slider-inner .slide img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slider-inner .slide h3{
+	width: 100%;
+	font-size: 16px;
+	font-weight: 100;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	margin: 0;
+	padding: 5px 10px;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	margin-bottom: -25;
+	transition: 0.5s ease 0.5s;
+}
+.slider-inner .slide.current{
+	opacity: 1;
+	visibility: visible;
+	z-index: 1;
+}
+.slider-inner .slide.current h3{
+	bottom: 0;
+}
+.slider-control{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+.slider-control .next,
+.slider-control .prev{
+	display: inline-block;
+	font-size: 30px;
+	color: #eee;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 2px;
+	backdrop-filter: blur(5px);
+	background-clip: border-box;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 0 8px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.slider-control .next{
+	right: 5px;
+}
+.slider-control .prev{
+	left: 5px;
+}
+.slider-control .next:before{
+	content: '\00BB';
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.slider-control .prev:before{
+	content: '\00AB';
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.slider-control .next:hover,
+.slider-control .prev:hover{
+	background-color: #fff;
+}
+.slider-control .next:hover:before,
+.slider-control .prev:hover:before{
+	color: #333;
+	text-shadow: none;
+} 
+
+
+  
+      /* carosal */
+    </style>
+  </head>
+  <body>
+    
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./image/pngwing.com.png" alt="" width="20%"></label>
+      <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./game.html">Games</a></li>
+        <li><a href="#">JOURNEY</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header></header>
+ 
+    <section>
+      <aside id="leftaside">
+        <center>
+          <h2>video file for god of war</h2>
+          <video width="90%" height="auto" controls>
+            <source src="./video/God of War _ PlayStation (India).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+            </center> 
+            <center>
+              <h2>audio file for god of war</h2>
+              <audio controls>
+               <source src="./video/God Of War Ragnarok ! Kratos Bgm Theme.mp3" type="audio/mpeg">
+             Your browser does not support the audio element.
+             </audio>
+            
+            <a href="./video/god of war pdf.pdf"><h2>PDF file for god of war</h2></a>
+          </center>
+            </aside>
+      <article id="art">
+        <div class="wh">
+        <div class="card">
+          <img src="./image/wp11484883-god-of-war-ragnarok-desktop-wallpapers(1).jpg" alt="" width="100%" height="120px">
+          <h2>God of War Ragnarök</h1>
+          <h3>Original release: PS5, PS4
+            Release date: November 9, 2022</h3>  
+        </div>
+        <div class="card">
+          <img src="./image/wp1906736-gods-of-war-wallpapers.jpg" alt=""width="100%" height="120px">
+          <h2>God of War</h2>
+          <h3>Original release: PS4
+            Original release date: 2018</h3>
+        </div>
+        <div class="card">
+          <img src="./image/wc1772053-images-2017-wallpaper.jpg" alt="" width="100%" height="120px">
+          <h2>God of War: Ascension</h2>
+          <h3>Original release: PS3
+            Original release date: 2013</h3>
+        </div>
+        <div class="card">
+          <img src="./image/wp5207164-god-of-war-ghost-of-sparta-wallpapers(1).jpg" alt=""width="100%" height="120px">
+          <h2>God of War: Ghost of Sparta</h2>
+          <h3>Original release: PSP
+            Original release date: 2010</h3>
+        </div>
+      </div>
+      <!-- caorsal -->
+      <div id="slider">
+        <div class="slider">
+            <div class="slider-inner">
+              <div class="slide current">
+                <img src="./image/GOWRG_Wallpaper_Desktop_Stalker_4k.jpg" alt="">
+               </div>
+              <div class="slide">
+               <img src="./image/GOWRG_Wallpaper_KeyArt_Desktop_4k.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./image/GOWRG_Wallpaper_Desktop_Tyr_Atreus_4k.jpg" alt="">
+              </div>
+             </div>
+            <div class="slider-control">
+              <div class="next"></div>
+              <div class="prev"></div>
+            </div>
+          </div> 
+    </div>
+    
+         </article>
+      <!-- <aside id="rightaside"></aside> -->
+    </section>
+    <footer>
+      <br>
+     <center> <p style="color: antiquewhite; font-size: medium;">all &copy;copyrights recived</p></center>
+    </footer>
+      <script src="./js/main.js"></script>
+     <script>
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+const slides = document.querySelectorAll('.slide');
+const auto = true;
+const interval = 5000;
+let initSlide;
+
+next.addEventListener('click', function(){
+    nextSlide();
+    clearInterval(initSlide);
+    initSlide = setInterval(nextSlide, interval); //to reset timeout
+});
+
+prev.addEventListener('click', function(){
+    prevSlide();
+    clearInterval(initSlide);
+    initSlide = setInterval(nextSlide, interval); //to reset timeout
+});
+
+const nextSlide = () => {
+    let current = document.querySelector('.current');
+    current.classList.remove('current');
+
+    if (current.nextElementSibling) {
+        current.nextElementSibling.classList.add('current');
+    }
+    else{
+        slides[0].classList.add('current');
+    }
+
+    setTimeout(() => current.classList.remove('current'));
+}
+
+const prevSlide = () => {
+    let current = document.querySelector('.current');
+    current.classList.remove('current');
+
+    if (current.previousElementSibling) {
+        current.previousElementSibling.classList.add('current');
+    }
+    else{
+        slides[slides.length - 1].classList.add('current');
+    }
+
+    setTimeout(() => current.classList.remove('current'));
+}
+ //Autoplay
+ if (auto) {
+    initSlide = setInterval(nextSlide, interval);
+}
+
+
+    </script>
+  </body>
+</html>

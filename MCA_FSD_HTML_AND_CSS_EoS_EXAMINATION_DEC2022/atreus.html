@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GOD OF WAR | a</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        #art{
+            width: 90%;
+            margin: 10px;
+            display: block;
+        }
+        #con{
+            float: left;
+            margin: 20px;
+            border-radius:20px;
+            box-shadow: 4px 6px 10px 0;
+            transition: 0.5s;
+        }
+        #con:hover{
+            width: 40%;
+        }
+        #art p{
+           
+            font-size: 1.5vw;
+        }
+        h1{
+            font-size: 2.5vw;
+            margin-left: 55%;
+        }
+        #con{
+            width: 20%;
+            height: auto;
+            overflow: hidden;
+        }
+        #leftaside{
+            background: white;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./image/pngwing.com.png" alt="" width="20%"></label>
+      <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./game.html">Games</a></li>
+        <li><a href="#">JOURNEY</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header></header>
+ 
+    <section>
+      <aside id="leftaside">
+        <center>
+            <h2 >charactors</h2>
+            <a href="./kratos.html"><img src="./image/Kratos.jpg" alt="" width="70%"></a>
+            <h4>Kratos</h4>
+            <a href="./atreus.html"><img src="./image/Atreus.jpg" alt="" width="70%"></a>
+            <h4>Atreus</h4>
+            <a href=""><img src="./image/Durlin.jpg" alt="" width="70%"></a>
+            <h4>Durlin</h4>
+            <a href=""><img src="./image/Angrboda.jpg" alt="" width="70%"></a>
+            <h4>Angrboda</h4>
+            <a href=""><img src="./image/Mimir.jpg" alt="" width="70%"></a>
+          <h4>MInir</h4></center> 
+      </aside>
+      <article id="art">
+        <div id="con"><img src="./image/Atreus.jpg" alt=""></div>
+        <h1>Atreus</h1>
+        <p>Atreus, also known as Loki, is the deuteragonist of the Norse Era of the action-adventure fantasy video game franchise God of War, appearing as the deuteragonist of the 2018 video game God of War and its 2022 sequel God of War Ragnarök.
+
+            He is Kratos' second child with his second wife named Laufey, and Kratos' first child not to be born in Greece, due to his father from his past having rage issues, unintentionally killing his first family, which later on leads him to killing most of the Gods of Olympus that caused Armageddon of all of Greece, which he's unaware of his father's past. Born in Scandinavia, his father taught him all the means to survive in a harsh world by learning how to use a bow and arrow. Through the journey, he learned of his God and Jötun heritage. In the secret ending, Atreus felt the future of Fimbulwinter destruction and Ragnarök begins when he and Kratos encountered Thor.
+            
+            In the God of War Ragnarök, Atreus has grown up during the period, and has developed more abilities. He and Kratos go on another journey to end Ragnarök by searching for Tyr, and later building an army to fight against Odin.Atreus was conceived between the Greek demigod Kratos and a Jötunn named Laufey, whom he called Faye (but probably nicknamed herself to hide her identity). He was a sickly child and only recently grew healthy enough to travel, but flying into a rage would return his sickness. Not much is known about his past other than the fact Kratos was rarely home because he was practicing control over his rage, which Atreus misinterprets as hunting. Kratos' absence would strain his relationship with his son, whom believed that he didn't care for him, or wanted him in his life. As a child, Faye would tell Atreus stories of the Æsir Gods, Vanir Gods, the realms, and monsters that lived in Midgard. Despite not being trained by his father, Faye had taught Atreus how to hunt, and how to spot different animal tracks in the forest.
+
+            Faye had passed away sometime later, although the causes are still unknown, and for her final wish, asked Kratos and Atreus to spread her ashes on the highest peak of all the realms.</p>
+        </article>
+      <!-- <aside id="rightaside"></aside> -->
+    </section>
+    <script src="./js/main.js">
+      // navgation bar
+      window.addEventListener(scroll,function(){
+      var header=this.document.getElementById("head");
+      header.classList.toggle('sticky',this.window.screenY > 0);
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GOD OF WAR | KRATOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./image/icon.png" type="image/icon type">
+
+    <style>
+        #art{
+            width: 90%;
+            margin: 10px;
+            display: block;
+        }
+        #con{
+            float: left;
+            margin: 20px;
+            border-radius:20px;
+            box-shadow: 4px 6px 10px 0;
+            transition: 0.5s;
+        }
+        #con:hover{
+            width: 40%;
+        }
+        #art p{
+           
+            font-size: 1.5vw;
+        }
+        h1{
+            font-size: 2.5vw;
+            margin-left: 55%;
+        }
+        #con{
+            width: 20%;
+            height: auto;
+            overflow: hidden;
+        }
+        #leftaside{
+            background: white;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./image/pngwing.com.png" alt="" width="20%"></label>
+      <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./game.html">Games</a></li>
+        <li><a href="#">JOURNEY</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header></header>
+ 
+    <section>
+      <aside id="leftaside">
+        <center>
+            <h2 >charactors</h2>
+            <a href="./character.html"><img src="./image/Kratos.jpg" alt="" width="70%"></a>
+            <h4>Kratos</h4>
+            <a href="./atreus.html"><img src="./image/Atreus.jpg" alt="" width="70%"></a>
+            <h4>Atreus</h4>
+            <a href=""><img src="./image/Durlin.jpg" alt="" width="70%"></a>
+            <h4>Durlin</h4>
+            <a href=""><img src="./image/Angrboda.jpg" alt="" width="70%"></a>
+            <h4>Angrboda</h4>
+            <a href=""><img src="./image/Mimir.jpg" alt="" width="70%"></a>
+          <h4>MInir</h4></center> 
+      </aside>
+      <article id="art">
+        <div id="con"><img src="./image/Kratos.jpg" alt=""></div>
+        
+        <h1>Kratos</h1>
+        <p>Kratos (Ancient Greek: Κράτος lit. "strength"; Old Norse: Fárbauti [ˈfɑːrˌbɔute] lit. "fierce striker") is a fictional character and the protagonist of Santa Monica Studio's God of War series, based on Greek mythology and, later, Norse mythology. He first appeared in the 2005 video game God of War, which led to the development of eight additional titles featuring the character as the protagonist. Kratos also appears as the protagonist of the 2010 and 2018 comic series, as well as three novels that retell the events of three of the games. The character was voiced by Terrence C. Carson from 2005 to 2013,[4] with Christopher Judge taking over the role in 2018's continuation, also titled God of War. Antony Del Rio voiced the character as a child in God of War: Ghost of Sparta.</p>
+        <p>Throughout the Greek era of the series, Kratos is portrayed as a Spartan warrior, who becomes known as the "Ghost of Sparta" after accidentally killing his family due to the trickery of his former mentor Ares, the God of War. He later avenges the deaths of his family, being turned into a god and the new "God of War" by Zeus after killing Ares. Kratos is eventually revealed to have been born a demigod and Zeus' son, who later betrays him. Kratos embarks on several adventures in attempts to avert disaster or to change his fate. He is usually portrayed as being oblivious to all else and is stoic, bloodthirsty, and arrogant in nature, often engaging in morally ambiguous activities and performing acts of extreme violence. However, he frequently questions himself, undergoes bouts of severe guilt and self-hate, even attempting suicide several times, and is generally portrayed as a tragic figure. Vengeance is a central theme of the Greek era, and installments focus on Kratos' origins and his relationships with his family and the Olympian gods. In the Norse era of the series, Kratos finds himself controlling his rage and learning how to truly be a father and mentor to his son, Atreus, helping him come to terms with his divinity. Along their journey, they combat monsters and gods of the Norse realm, of whom they make enemies, which inevitably leads to the catastrophic Ragnarök.</p>
+        </article>
+      <!-- <aside id="rightaside"></aside> -->
+    </section>
+    <footer>
+      <br>
+     <center> <p style="color: antiquewhite; font-size: medium;">all &copy;copyrights recived</p></center>
+    </footer>
+    <script src="./js/main.js">
+      // navgation bar
+      window.addEventListener(scroll,function(){
+      var header=this.document.getElementById("head");
+      header.classList.toggle('sticky',this.window.screenY > 0);
+      })
+    </script>
+  </body>
+</html>
